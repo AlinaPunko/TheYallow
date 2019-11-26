@@ -7,6 +7,12 @@
     padding: 20px;
 }
 
+.logo_menu {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
 .logo-img {
     margin-top: -10px;
     margin-left: -40px;
@@ -89,6 +95,12 @@
 
 .main_nav__element:hover {
     color: brown;
+}
+
+.video_slogan {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
 }
 
 .slogan__first_line {
