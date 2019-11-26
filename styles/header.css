@@ -3,21 +3,27 @@
     background-image: url("../images/Header_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 565px;
     padding: 20px;
 }
 
 .header__content {
+    margin: auto;
     box-sizing: content-box;
-    width: 100%;
-    margin-right: 100px;
-    margin-left: 100px;
+    width: 1300px;
+}
+
+.logo__text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 41px;
 }
 
 .content__main_nav {
-    /* box-shadow: -5px -5px 0px rgba(245, 197, 6, 0.5), -10px -10px 0px; */
-    /* position: relative; */
-    /* display: flex; */
+    box-shadow: -4px -4px rgba(128, 111, 36, 2.5), -8px -8px rgba(151, 131, 22, 0.5);
+    display: flex;
+    flex-direction: row;
     margin-left: 600px;
     width: 450px;
     height: 40px;
@@ -26,24 +32,18 @@
 
 .main_nav__element {
     display: inline-block;
+    border: #b99403 1px;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 32%;
-    position: relative
 }
 
 .element__text {
     font-style: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
     font-size: 17px;
     color: #b99403;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -70%);
 }
 
 .slogan__first_line {

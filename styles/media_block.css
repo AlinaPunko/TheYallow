@@ -1,9 +1,9 @@
 .media_block {
     background-image: url("../images/Section2_background.png");
-    height: 200px;
+    height: 510px;
 }
 
 .media_block__content {
-    width: 800px;
+    width: 1300px;
     margin: auto;
 }

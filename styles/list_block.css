@@ -1,0 +1,6 @@
+.list_block {
+    background-image: url("../images/list_block_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 495px;
+}
