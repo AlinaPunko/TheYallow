@@ -7,10 +7,22 @@
     padding: 20px;
 }
 
+.logo-img {
+    margin-top: -10px;
+    margin-left: -40px;
+    float: left;
+    height: 83px;
+    width: 83px;
+    background-size: 100%;
+    background-image: url(../images/logo2.png), url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header__content {
     margin: auto;
     box-sizing: content-box;
-    width: 1300px;
+    width: 1020px;
 }
 
 .logo__text {
@@ -24,14 +36,16 @@
     box-shadow: -4px -4px rgba(128, 111, 36, 2.5), -8px -8px rgba(151, 131, 22, 0.5);
     display: flex;
     flex-direction: row;
-    margin-left: 600px;
-    width: 450px;
+    margin-left: auto;
+    width: 455px;
     height: 40px;
     background-color: #f5c506;
+    margin-top: 20px;
 }
 
 .main_nav__element {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     border: #b99403 1px;
     align-items: center;
     justify-content: center;
@@ -39,14 +53,46 @@
     width: 32%;
 }
 
-.element__text {
-    font-style: bold;
+.element__text_about {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
     color: #b99403;
 }
 
+.element__text_about::before {
+    background-image: url("../images/User.png");
+}
+
+.element__text_services {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #b99403;
+}
+
+.element__text_contact {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #b99403;
+}
+
+.main_nav__element:hover {
+    color: brown;
+}
+
 .slogan__first_line {
+    margin-top: 20%;
     color: #f5c506;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,7 +108,11 @@
     display: block;
 }
 
+.content__video {
+    width: 550px;
+}
+
 .content__slogan {
-    padding: 30px;
-    width: 100%;
+    text-align: center;
+    width: 50%;
 }
