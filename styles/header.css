@@ -7,6 +7,10 @@
     padding: 20px;
 }
 
+.content__logo:hover {
+    cursor: pointer;
+}
+
 .logo_menu {
     display: flex;
     flex-direction: row;
@@ -59,7 +63,7 @@
     width: 32%;
 }
 
-.element__text_about {
+.main_nav__element p {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -73,28 +77,9 @@
     background-image: url("../images/User.png");
 }
 
-.element__text_services {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    color: #b99403;
-}
-
-.element__text_contact {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    color: #b99403;
-}
-
-.main_nav__element:hover {
+.main_nav__element p:hover {
     color: brown;
+    cursor: pointer;
 }
 
 .video_slogan {
