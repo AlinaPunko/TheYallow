@@ -1,24 +1,38 @@
 .icon_area {
     margin: auto;
     height: 215px;
-    width: 1020px;
+    /* width: 1020px; */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .icon_area__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width: 1020px;
+    margin: auto;
 }
 
 .content__item {
-    width: 30%;
+    /* width: 30%; */
     height: 215px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+@media (max-width: 1020px) {
+    .content__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icon_area__content {
+        width: 100%
+    }
+    .item__text {
+        font-size: 20pt;
+    }
 }
 
 .item__text {

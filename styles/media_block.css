@@ -63,6 +63,40 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width: 1020px) {
+    .media_block__content {
+        width: 100%;
+        margin: 0;
+    }
+    .content__title {
+        display: none;
+    }
+    .content__video {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .video__comment {
+        margin: 10px;
+        font-size: 20px;
+        flex-basis: 45%;
+    }
+    .video {
+        margin: 10px;
+        flex-basis: 45%;
+    }
+    .content__twitter {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .twitter__add {
+        display: none;
+    }
+    .twitter__number {
+        display: none;
+    }
+}
+
 .twitter__add {
     margin-left: 85%;
     margin-top: 40%;

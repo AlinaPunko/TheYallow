@@ -7,10 +7,6 @@
     padding: 20px;
 }
 
-.content__logo:hover {
-    cursor: pointer;
-}
-
 .logo_menu {
     display: flex;
     flex-direction: row;
@@ -27,6 +23,12 @@
     background-image: url(../images/logo2.png), url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (max-width: 1020px) {
+    .header__content {
+        width: 100%;
+    }
 }
 
 .header__content {

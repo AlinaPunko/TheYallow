@@ -42,6 +42,34 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media (max-width: 1020px) {
+    .list_Block_content {
+        width: 100%;
+    }
+    ul {
+        display: none;
+    }
+    .pictures_list {
+        display: block;
+    }
+}
+
+.devices {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pictures_list {
+    display: flex;
+    flex-direction: row;
+}
+
 ul li {
     margin: 5px;
     list-style-type: none;
