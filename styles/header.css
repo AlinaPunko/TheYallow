@@ -25,12 +25,6 @@
     background-position: center;
 }
 
-@media (max-width: 1020px) {
-    .header__content {
-        width: 100%;
-    }
-}
-
 .header__content {
     margin: auto;
     box-sizing: content-box;
@@ -80,7 +74,7 @@
 }
 
 .main_nav__element p:hover {
-    color: brown;
+    color: white;
     cursor: pointer;
 }
 
@@ -90,8 +84,11 @@
     padding-top: 20px;
 }
 
+.content__logo:hover {
+    cursor: pointer;
+}
+
 .slogan__first_line {
-    margin-top: 20%;
     color: #f5c506;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,5 +110,100 @@
 
 .content__slogan {
     text-align: center;
-    width: 50%;
+    padding-left: 100px;
+}
+
+.subtext {
+    font-size: 11px;
+}
+
+@media (max-width: 420px) {
+    .header {
+        height: 100%;
+        padding: 0%;
+    }
+    .header__content {
+        width: 100%;
+        height: auto;
+    }
+    .content__main_nav {
+        box-shadow: none;
+        width: max-content;
+        margin: 0%;
+        width: auto;
+    }
+    .content__slogan {
+        display: none;
+    }
+    .logo-img {
+        display: none;
+    }
+    .logo_menu {
+        background-color: #5b5b5b;
+        padding: 0%;
+    }
+    .logo__text {
+        font-size: 16px;
+    }
+    .subtext {
+        display: none;
+    }
+    .content__main_nav {
+        width: 100%;
+        box-shadow: none;
+        margin-top: 0%;
+    }
+    .main_nav__element p {
+        font-size: 13px;
+    }
+    .video_slogan {
+        padding: 0%;
+    }
+}
+
+@media(min-width: 760px)AND ( max-width: 770px) {
+    .header {
+        height: 100%;
+        padding: 0%;
+    }
+    .header__content {
+        width: 100%;
+        height: auto;
+    }
+    .content__main_nav {
+        box-shadow: none;
+        width: max-content;
+        margin: 0%;
+        width: auto;
+    }
+    .content__slogan {
+        display: none;
+    }
+    .logo-img {
+        display: none;
+    }
+    .logo_menu {
+        background-color: #5b5b5b;
+        padding: 0%;
+    }
+    .logo__text {
+        font-size: 16px;
+    }
+    .subtext {
+        display: none;
+    }
+    .content__main_nav {
+        width: 100%;
+        box-shadow: none;
+        margin-top: 0%;
+    }
+    .main_nav__element p {
+        font-size: 13px;
+    }
+    .video_slogan {
+        padding: 0%;
+    }
+    .content__video video {
+        margin-left: 18.5%;
+    }
 }

@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.footer__content:hover {
+    cursor: pointer;
+}
+
 .content__img {
     justify-content: center;
     align-content: center;
