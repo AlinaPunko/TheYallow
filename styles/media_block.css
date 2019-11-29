@@ -53,8 +53,8 @@
 
 .content__twitter {
     box-sizing: content-box;
-    width: 33%;
-    margin-left: 38px;
+    width: 30%;
+    margin-left: 30px;
     background-color: orange;
     background-image: url("../images/twitter.png");
     background-position-x: center;
@@ -129,7 +129,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .media_block {
         height: 100%;
     }

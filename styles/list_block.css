@@ -19,7 +19,7 @@
     width: auto;
 }
 
-.circle-with-text {
+.circle_with_text {
     display: flex;
     font-weight: bold;
     background: #f5c506;
@@ -130,14 +130,14 @@ ul li::before {
         max-height: 100%;
         max-width: 100%;
     }
-    .circle-with-text {
+    .circle_with_text {
         padding: 0px;
         margin-left: 20px;
         margin-top: 40px;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .list_Block_content {
         width: 100%;
     }
@@ -181,7 +181,7 @@ ul li::before {
         max-height: 100%;
         max-width: 100%;
     }
-    .circle-with-text {
+    .circle_with_text {
         padding: 0px;
         height: 80px;
         width: 80px;
